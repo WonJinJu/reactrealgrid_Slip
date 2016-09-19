@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/app/FastSearching-compiled.js" />
+        <item url="file://$PROJECT_DIR$/app/App-compiled.js" />
+        <item url="file://$PROJECT_DIR$/public/script/main-compiled.js" />
+        <item url="file://$PROJECT_DIR$/app/SlipGrid-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/public/script/main_temp-compiled.js" />
+      <root url="file://$PROJECT_DIR$/app/GridMain-compiled.js" />
+      <root url="file://$PROJECT_DIR$/public/script/gridViewStyles-compiled.js" />
+      <root url="file://$PROJECT_DIR$/app/FastSearching-compiled.js" />
+      <root url="file://$PROJECT_DIR$/app/App-compiled.js" />
+      <root url="file://$PROJECT_DIR$/public/script/main-compiled.js" />
+      <root url="file://$PROJECT_DIR$/app/SlipGrid-compiled.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
