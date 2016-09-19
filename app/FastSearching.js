@@ -3,14 +3,14 @@
  * which incorporates components provided by Material-UI.
  */
 import React, {Component} from 'react';
-import {deepOrange500} from 'material-ui/styles/colors';
+/*import {deepOrange500} from 'material-ui/styles/colors';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';*/
 import TextField from 'luna-rocket/LUXTextField';
 import LuxButton from 'luna-rocket/LUXButton';
 //import TextField from 'material-ui/TextField';
-import StringType from '../app/npm-ats-lib/prototype/src/String';
-import {Common} from '../app/npm-ats-lib';
+import StringType from 'ats-lib/prototype/src/String';
+import {Common} from 'ats-lib';
 
 const styles = {
   container: {
@@ -32,12 +32,6 @@ const styles_text ={
     }
 };
 
-
-const muiTheme = getMuiTheme({
-  palette: {
-    accent1Color: deepOrange500,
-  },
-});
 /*
 * props : StartYMD  시작회계기간
 *       : EndYMD    종료회계기간
@@ -583,7 +577,7 @@ class FastSearching extends Component {
     }
 
     return (
-        <div style={styles.container}>
+        <div>
         {controlVisibleSetting}
         </div>
     );

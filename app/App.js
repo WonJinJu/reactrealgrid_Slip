@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import SlipGrid from './SlipGrid';
+import Main from './Main';
 
 
-render(<SlipGrid/>, document.getElementById('root'));
+render(<Main/>, document.getElementById('root'));

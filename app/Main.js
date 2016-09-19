@@ -3,9 +3,6 @@
  * which incorporates components provided by Material-UI.
  */
 import React, {Component} from 'react';
-//import {deepOrange500} from 'material-ui/styles/colors';
-//import getMuiTheme from 'material-ui/styles/getMuiTheme';
-//import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TextField from 'luna-rocket/LuxTextField';
 import StrisngType from 'ats-lib/prototype/src/String';
 import SlipGrid from './SlipGrid';
@@ -33,8 +30,8 @@ class Main extends Component {
     * */
     this.state = {
       open: false,
-      startYMDPeriod : '20160101', //시작회계기간
-      endYMDPeriod : '20161231',   //종료회계기간
+      startYMDPeriod : '20130101', //시작회계기간
+      endYMDPeriod : '20131231',   //종료회계기간
       //컨트롤에서 받아올 값
       searchingData : {
                         startPeriod:{startY:'',startM:'',startD:'', sDate:''},
